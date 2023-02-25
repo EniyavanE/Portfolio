@@ -1,0 +1,21 @@
+.bottom{
+    background-color: #1f1f38;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.Containerdetails{
+    align-self: center;
+}
+.location{
+     display: flex;
+     gap: 3rem;
+}
+.icons{
+    display: flex;
+    gap:1rem;
+}
+a{
+    text-decoration: none;
+}

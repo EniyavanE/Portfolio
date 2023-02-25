@@ -1,0 +1,54 @@
+header{
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cta{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.cta > .btn{
+   background-color: rgb(5, 5, 117);
+   color: white;
+   border-radius: 5px;
+   border: none;
+   padding: 7px;
+   text-decoration: none;
+}
+
+
+.socialicons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    left: 20px;
+    position: absolute;
+}
+
+.socialicons::after{
+    content: "";
+    height: 40px;
+    width: 2px;
+    background-color: white;
+}
+
+.me{
+    margin-top: 25px;
+    border-radius: 35px 35px 0 0;
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+@media  screen and (max-width : 600px) {
+    header{
+        height: 100vh;
+    }
+    .socialicons{
+        display: none;
+    }
+}

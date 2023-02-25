@@ -1,0 +1,50 @@
+.languages{
+    display: flex;
+}
+.languages > div {
+      width: 50%;
+}
+
+.frontend{
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: rgba(0, 255, 255,0.2);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 8px;
+}
+.backend{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 255, 255,0.2);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.frontend > div{
+    width: 50%;
+    padding-top: 50px;
+}
+
+.backend > div{
+    width :50%;
+    padding-top: 50px;
+}
+.frontend > .onelang{
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+}
+.backend > .onelang{
+    display: flex;
+    gap: 7px;
+    justify-content: center;
+}
+
+.langexp{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}

@@ -1,0 +1,58 @@
+.abouts > h3,h5{
+    text-align: center;
+}
+.profile{
+
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+}
+.slidingpic{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    transform: rotate(10deg);
+}
+.aboutdetails{
+    display: flex;
+    align-items: center;
+}
+.aboutdetails > .details{
+    width: 50%;
+}
+.workexperience{
+    display: flex;
+    gap: 4rem;
+}
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgba(0, 255, 255,0.2);
+    padding: 15px;
+    outline: rgb(0, 255, 255);
+    border-radius: 5px;
+}
+.btn{
+    background-color: #003F84;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    text-decoration: none;
+}
+ 
+@media screen and (max-width:600px){
+          .aboutdetails{
+            display: flex;
+            flex-direction: column;
+          }
+          .workexperience{
+            display: flex;
+            flex-direction: column;
+            gap: 4rem;
+        }
+}
